@@ -1,0 +1,3 @@
+.ms-ContextualMenu-link.ms-ContextualMenu-link--hasMenu ~ .ms-ContextualMenu {
+  left: 20px;
+  top: 40px; }

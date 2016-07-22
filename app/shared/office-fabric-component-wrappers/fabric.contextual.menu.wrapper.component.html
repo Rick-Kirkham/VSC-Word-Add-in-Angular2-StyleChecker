@@ -1,0 +1,14 @@
+<ul class="ms-ContextualMenu" id="myDropdown">
+    <li class="ms-ContextualMenu-item"><a class="ms-ContextualMenu-link" (click)='insertSampleContent()'>Sample content</a></li>
+    <li class="ms-ContextualMenu-item"><a class="ms-ContextualMenu-link" href="#">Page 3</a></li>       
+    <li class="ms-ContextualMenu-item ">
+        <a class="ms-ContextualMenu-link" [routerLink]="['/settings']">
+            <span class="ms-Icon ms-Icon--gear"></span> Settings
+        </a>
+    </li>
+    <li class="ms-ContextualMenu-item ">
+        <a class="ms-ContextualMenu-link" href="#">
+            <span class="ms-Icon ms-Icon--sites"></span> Sign-out
+        </a>
+    </li>
+</ul>
